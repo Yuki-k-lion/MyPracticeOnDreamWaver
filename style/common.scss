@@ -1,8 +1,8 @@
+@charset "utf-8";
 @import "setting";
-@import "partials/mixins";
+@import "style/partials/mixins";
 @import "base";
-@import "partials/reset";
-
+@import "/style/partials/reset";
 /* ===================================================================
 
 common style
@@ -103,17 +103,16 @@ section {
   }
 }
 
-/*facebookアイコン調整*/
-/*
+/*Facebook-icon*/
 .icon-fa {	
   margin-top: -21px !important;
   margin-right: -11px !important;
   &:before {
     font-size: 5rem !important;
   }
-}*/
+}
 
-// よく使うソーシャルサイト //
+//Social-sates//
 /*facebook*/
 .facebook a {
   border: 3px solid $facebook !important;
@@ -157,7 +156,7 @@ section {
   }
 }
 
-// その他のソーシャルサイト //
+//Etcs//
 .codepen a {
   border: 3px solid $codepen !important;
   &:after {
