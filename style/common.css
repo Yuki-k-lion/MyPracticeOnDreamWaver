@@ -8,11 +8,11 @@ Error: Invalid US-ASCII character "\xE3"
 104: }
 105: 
 106: /*facebookアイコン調整*\/
-107: .icon-fa {
-108:   margin-top: -21px !important;
-109:   margin-right: -11px !important;
-110:   &:before {
-111:     font-size: 5rem !important;
+107: /*
+108: .icon-fa {	
+109:   margin-top: -21px !important;
+110:   margin-right: -11px !important;
+111:   &:before {
 
 Backtrace:
 /Users/Yuki 1/Desktop/DesignPrc/FrontEnd/DreamWeberPrac/style/common.scss:106
@@ -36,4 +36,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid US-ASCII character \"\xE3\"\A         on line 106 of /Users/Yuki 1/Desktop/DesignPrc/FrontEnd/DreamWeberPrac/style/common.scss\A \A 101:       }\A 102:     }\A 103:   }\A 104: }\A 105: \A 106: /*facebookアイコン調整*/\A 107: .icon-fa {\A 108:   margin-top: -21px !important;\A 109:   margin-right: -11px !important;\A 110:   &:before {\A 111:     font-size: 5rem !important;"; }
+  content: "Error: Invalid US-ASCII character \"\xE3\"\A         on line 106 of /Users/Yuki 1/Desktop/DesignPrc/FrontEnd/DreamWeberPrac/style/common.scss\A \A 101:       }\A 102:     }\A 103:   }\A 104: }\A 105: \A 106: /*facebookアイコン調整*/\A 107: /*\A 108: .icon-fa {	\A 109:   margin-top: -21px !important;\A 110:   margin-right: -11px !important;\A 111:   &:before {"; }
